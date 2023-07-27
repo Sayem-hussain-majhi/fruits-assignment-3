@@ -1,0 +1,41 @@
+/* google font import */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Syne:wght@400;500;600;700&display=swap');
+
+.logo, .navbar-start ul li, .input{
+    font-family: 'Lato', sans-serif;
+}
+
+
+.slider-text p{
+    font-size: 20px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+
+.fruit-overlay .text-center p{
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    color: #121212;
+    margin-top: 16px;
+}
+
+.member-text h1{
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 32px;
+}
+.member-text p{
+    font-size: 16px;
+    margin: 8px 0 16px 0;
+
+}
+
+.member-text i{
+    padding: 8px;
+    background-color: #F85559;
+    color: white;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+}
