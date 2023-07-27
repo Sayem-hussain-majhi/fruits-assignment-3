@@ -41,9 +41,10 @@
                 <i class="fa-solid fa-bars text-3xl"></i>
             </div>
             <div class="navbar-end hidden lg:flex">
-                <div class="form-control">
+                <div class="form-control relative">
                     <input type="text" placeholder="Search"
                         class="input input-bordered w-24 w-auto py-4 px-7 rounded-full text-base"/>
+                        <i class="fa-solid fa-magnifying-glass absolute mt-4 ml-52"></i>
 
                 </div>
             </div>
@@ -180,7 +181,7 @@
                     <p class="text-[#707070]">Contrary to popular belief, is not simply random text. It has roots in a
                         piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
                 </div>
-                <div class="w-full lg:w-2/5 flex justify-between gap-4">
+                <div class="w-full lg:w-2/5 grid grid-cols-2 gap-4">
                     <div class="text-center">
                         <div class="flex items-center">
                             <div class="stat-value text-5xl font-bold pe-8">29</div>
@@ -205,10 +206,11 @@
                         <div class="stat-desc text-lg pe-8 text-[#707070]    ">Minutes</div>
                     </div>
                     <div class="text-center">
-                        <div class="flex flex-col justify-center items-center gap-0.5">
-                            <div class="stat-value text-5xl font-bold ">08</div>
-                            <div class="stat-desc text-lg text-[#707070]">Seconds</div>
+                        <div class="flex items-center">
+                            <div class="stat-value text-5xl font-bold pe-8">08</div>
+                            <i class="fa-solid fa-ellipsis-vertical"></i>
                         </div>
+                        <div class="stat-desc text-lg pe-8 text-[#707070]    ">Seconds</div>
                     </div>
 
                 </div>
